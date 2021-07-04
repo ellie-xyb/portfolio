@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F9FCFB;
+}
+
+.header {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 30px;
+  background-color: #F9FCFB;
+}
+
+.header p {
+  margin-left: 40px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.introduceDiv {
+  padding-top: 40px;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  justify-content: center;
+
+}
+
+.profileImg {
+  display: inline-block;
+  width: 200px;
+  height: 280px;
+  background-image: url(src/profile.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+  border-radius: 3px;
+  flex-shrink: 1;
+}
+
+.profileInfo {
+  text-align: center;
+  max-width: 330px;
+  height: 250px;
+  display: inline-block;
+  background-image: url(src/introduce-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.profileInfo h1 {
+  padding-top: 38px;
+}
+
+.divideLine {
+  margin: 10px 0px 0px 0px;
+  height: 80px;
+  width: 100vw;
+  max-width: 100%;
+  background: url(src/divide_line.png);
+  background-size: cover;
+  background-position: top left;
+}
+
+.learningContent {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  max-width: 90vw;
+  margin: 15px auto;
+}
+
+.learningInfo {
+  text-align: center;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.learningChart {
+  min-height: 320px;
+  background: url(src/learning_background.png) center center/contain no-repeat;
+}
+
+.hobbyDev {
+  width: 100vw;
+  min-height: 60vh;
+  max-width: 100%;
+  background-color: #FD5E53;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.hobbyCard {
+  min-height: 280px;
+  min-width: 240px;
+  max-width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px rgba(0,0,0,0.2);
+  margin: 30px;
+  background-color: #F9FCFB;
+}
+
+.hobbyImg{
+  max-height: 280px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.hobbyImg img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.hobbyInfo {
+  text-align: center;
+  color: black;
+  padding: 40px;
+}
+
+.hobbyCard:hover {
+  background-color: #FD5E53;
+  color: white;
+}
+
+
+.hobbyInfo p {
+  visibility: hidden;
+}
+
+.hobbyCard:hover img{
+  transform: scale(1.02);
+  filter: opacity(50%);
+  transition: 0.4s ease-out;
+}
+
+.hobbyCard:hover p {
+  visibility: visible;
+}
+
+.hobbyCard:hover .hobbyInfo{
+  background-color: rgba(0 );
+  color: white;
+  transform: translatey(-10px);
+  transition: 0.6s ease-out;
+}
+
+/*@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}*/
+
