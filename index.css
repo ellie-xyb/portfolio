@@ -28,6 +28,7 @@ body {
   max-width: 100%;
   min-height: 30px;
   background-color: #F9FCFB;
+  opacity: 0.9;
 }
 
 .header p {
@@ -38,6 +39,7 @@ body {
   width: 80px;
   height: 80px;
   animation:spin 5s linear infinite;
+  opacity: 1;
 }
 
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -56,7 +58,7 @@ body {
   display: inline-block;
   width: 200px;
   height: 280px;
-  background-image: url(src/profile.jpg);
+  background-image: url(src/mine.jpeg);
   background-size: cover;
   background-position: 60% 50%;
   border-radius: 3px;
@@ -112,76 +114,6 @@ body {
   background: url(src/learning_background.png) center center/contain no-repeat;
 }
 
-/*.hobbyDev {
-  width: 100vw;
-  min-height: 60vh;
-  max-width: 100%;
-  background-color: #FD5E53;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.hobbyCard {
-  min-height: 280px;
-  min-width: 240px;
-  max-width: 300px;
-  overflow: hidden;
-  border-radius: 20px;
-  cursor: pointer;
-  box-shadow: 0 0 20px 8px rgba(0,0,0,0.2);
-  margin: 30px;
-  background-color: #F9FCFB;
-}
-
-.hobbyImg{
-  max-height: 280px;
-  max-width: 300px;
-  overflow: hidden;
-}
-
-.hobbyImg img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-.hobbyInfo {
-  text-align: center;
-  color: black;
-  padding: 40px;
-}
-
-.hobbyCard:hover {
-  background-color: #FD5E53;
-  color: white;
-}
-
-
-.hobbyInfo p {
-  visibility: hidden;
-}
-
-.hobbyCard:hover img{
-  transform: scale(1.02);
-  filter: opacity(50%);
-  transition: 0.4s ease-out;
-}
-
-.hobbyCard:hover p {
-  visibility: visible;
-}
-
-.hobbyCard:hover .hobbyInfo{
-  background-color: rgba(0 );
-  color: white;
-  transform: translatey(-10px);
-  transition: 0.6s ease-out;
-}*/
-
 .masonry-wrapper {
   padding: 1.5em;
   max-width: 100vw;
@@ -189,7 +121,7 @@ body {
   margin-right: auto;
   margin-top: 30px;
   padding-top: 50px;
-  background-color: #FD5E53;
+  /*background-color: #FD5E53;*/
 }
 
 .masonry {
@@ -207,12 +139,12 @@ body {
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
-    columns: 3;
+    columns: 2;
   }
 }
 @media only screen and (min-width: 1024px) {
   .masonry {
-    columns: 4;
+    columns: 2;
   }
 }
 
@@ -263,6 +195,33 @@ body {
   border-top: 1px solid rgba(0, 0, 0, .05);
 }
 
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
 
 
 
