@@ -136,6 +136,7 @@ body {
   font-size: 1.2em;
   padding-top: 10px;
   box-shadow: 0 0 15px #d9fcf7;
+  cursor: pointer;
 }
 
 .masonry-wrapper {
