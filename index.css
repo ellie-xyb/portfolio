@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +12,15 @@
 
 h1 {
   color: #FD5E53;
+  font-family: 'Lobster Two', cursive;
+}
+
+h5 {
+  font-family: 'Cairo', sans-serif;
+}
+
+p {
+  font-family: 'Cairo', sans-serif;
 }
 
 body {
@@ -29,13 +40,15 @@ body {
   opacity: 0.9;
 }
 
-.header p {
-  margin-left: 40px;
+.header a {
+  margin-left: 30px;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
 }
 
 .icon {
-  width: 60px;
-  height: 60px;
+  width: 68px;
+  height: 68px;
   animation:spin 5s linear infinite;
   opacity: 1;
 }
@@ -143,6 +156,7 @@ body {
   padding-top: 10px;
   box-shadow: 0 0 15px #d9fcf7;
   cursor: pointer;
+  font-family: 'Pacifico', cursive;
 }
 
 .watchlist a {
