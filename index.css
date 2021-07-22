@@ -93,6 +93,13 @@ body {
   background-position: top left;
 }
 
+@media only screen and (max-width: 767px) {
+  .divideLine {
+    min-height: 60px;
+    margin-bottom: 40px;
+  }
+}
+
 .learningContent {
   display: flex;
   flex-direction: column-reverse;
@@ -151,29 +158,32 @@ body {
   color: #d9fcf7;
 }
 
-.pettoren {
-  position: relative;
-  bottom: 10px;
-  left: 0px;
-
-}
-
 .pettoren a {
-  color: #21a577;
   text-decoration: none;
+  font-style: italic;
+  color: #9CECCB;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 .pettoren a:hover {
-  color: #1bd124;
   text-decoration: none;
+  font-style: italic;
+  color: #d9fcf7;
 }
+
+.watchlist h5 {
+  text-decoration: none;
+  font-style: italic;
+  color: #9CECCB;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
 
 .masonry-wrapper {
   padding: 1.5em;
   max-width: 100vw;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   padding-top: 50px;
   /*background-color: #FD5E53;*/
 }
