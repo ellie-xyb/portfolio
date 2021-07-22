@@ -138,16 +138,34 @@ body {
   cursor: pointer;
 }
 
-.carousel-caption a {
+.watchlist a {
   text-decoration: none;
   font-style: italic;
   color: #9CECCB;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 }
 
-.carousel-caption a:hover {
+.watchlist a:hover {
   text-decoration: none;
   font-style: italic;
   color: #d9fcf7;
+}
+
+.pettoren {
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+
+}
+
+.pettoren a {
+  color: #21a577;
+  text-decoration: none;
+}
+
+.pettoren a:hover {
+  color: #1bd124;
+  text-decoration: none;
 }
 
 .masonry-wrapper {
