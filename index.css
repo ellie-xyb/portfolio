@@ -8,6 +8,10 @@
   vertical-align: baseline;
 }
 
+h1 {
+  color: #FD5E53;
+}
+
 body {
   background-color: #F9FCFB;
 }
@@ -132,6 +136,18 @@ body {
   padding-top: 10px;
   box-shadow: 0 0 15px #d9fcf7;
   cursor: pointer;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  font-style: italic;
+  color: #9CECCB;
+}
+
+.carousel-caption a:hover {
+  text-decoration: none;
+  font-style: italic;
+  color: #d9fcf7;
 }
 
 .masonry-wrapper {
