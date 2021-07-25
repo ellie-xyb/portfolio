@@ -171,39 +171,10 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
-.watchlist a {
-  text-decoration: none;
-  font-style: italic;
-  color: #9CECCB;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+.ex-link {
+  max-width: 20px;
+  max-height: 20px;
 }
-
-.watchlist a:hover {
-  text-decoration: none;
-  font-style: italic;
-  color: #d9fcf7;
-}
-
-.pettoren a {
-  text-decoration: none;
-  font-style: italic;
-  color: #9CECCB;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-}
-
-.pettoren a:hover {
-  text-decoration: none;
-  font-style: italic;
-  color: #d9fcf7;
-}
-
-.watchlist h5 {
-  text-decoration: none;
-  font-style: italic;
-  color: #9CECCB;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-}
-
 
 .masonry-wrapper {
   padding: 1.5em;
