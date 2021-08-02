@@ -177,6 +177,10 @@ body {
   /*padding-bottom: 5px;*/
 }
 
+.carousel-img {
+  object-fit: cover;
+}
+
 .masonry-wrapper {
   padding: 1.5em;
   max-width: 100vw;
@@ -291,6 +295,9 @@ body {
   opacity: 1;
 }
 
-
+#carouselExampleCaptions {
+  max-width: 720px;
+  margin: 0 auto;
+}
 
 
