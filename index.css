@@ -103,9 +103,9 @@ body {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
 }*/
 
-/*.profileInfo h1 {
-  padding-top: 10px;
-}*/
+.profileInfo {
+  max-width: 800px;
+}
 
 .divideLine {
   margin: 20px 0px 80px 0px;
