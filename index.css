@@ -108,13 +108,14 @@ body {
 }
 
 .divideLine {
-  margin: 20px 0px 80px 0px;
+  margin: 30px 0px 80px 0px;
   min-height: 90px;
   width: 100vw;
   max-width: 100%;
   background: url(src/divide_line.png);
   background-size: cover;
   background-position: top left;
+  z-index: 999;
 }
 
 @media only screen and (max-width: 767px) {
@@ -128,7 +129,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  max-width: 90vw;
+  max-width: 80vw;
   margin: 15px auto;
 }
 
