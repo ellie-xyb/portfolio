@@ -338,3 +338,13 @@ body {
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-size: 70px 60px;
 }
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
