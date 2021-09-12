@@ -249,7 +249,7 @@ body {
 }
 
 .masonry-item, .masonry-content {
-  border-radius: 30px;
+  border-radius: 5px;
   overflow: hidden;
   display: inline-block;
 }
@@ -268,7 +268,7 @@ body {
 
 .masonry-item {
   color: #111111;
-  background-color: #f9f9f9;
+  background-color: #FD5E53;;
   overflow: hidden;
   top: 5px;
 }
