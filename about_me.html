@@ -10,39 +10,48 @@
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Dancing+Script&family=Lobster&family=Lobster+Two:ital@0;1&family=Pacifico&display=swap" rel="stylesheet"></head>
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Dancing+Script&family=Lobster&family=Lobster+Two:ital@0;1&family=Pacifico&display=swap" rel="stylesheet"></head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
 <body>
   <div class="header">
     <img class="icon" src="src/icon.png" alt="">
     <a href="./index.html"><h4 style="color: #b1caee;">Projects</h4></a>
-    <a href="./about_me.html"><h1 style="color:#0d6efd;">about me</h1></a>
+    <a href="./about_me.html"><h3 style="color:#0d6efd;">about me</h3></a>
   </div>
-  <div class="container introduceDiv">
-    <div class="row align-items-center">
-      <div class="col-6">
-        <div class="profileImg"></div>
-      </div>
-      <div class="col-6">
-        <div class="profileInfo">
-          <h1>Hi! I am Ellie👋<br> </h1>
-          <h5>Hi, I'm Ellie. I'm a full-stack developer from China, living and working in Tokyo, Japan.
-            I am highly skilled at Ruby & Rails, and I have a keen interest in React, Rust, and Go.
-            Outside of work I like boxing, bouldering, and dogs.
-          </h5>
+  <div>
+    <div class="container align-items-center">
+      <div class="introduceDiv row offset-lg-1">
+        <div class="col-lg-4 col-5">
+          <div class="profileImg"></div>
         </div>
-      </div>
+        <div class="col-lg-6 col-5">
+          <div class="profileInfo">
+            <h1>Hi! I am Ellie👋<br> </h1>
+            <h5>Hi, I'm Ellie. I'm a full-stack developer from China, living and working in Tokyo, Japan.
+              I am highly skilled at Ruby & Rails, and I have a keen interest in React, Rust, and Go.
+              Outside of work I like boxing, bouldering, and dogs.
+            </h5>
+          </div>
+        </div>
+      </div> 
     </div>
+    <div class="divideLine" id="learningtop"></div>
+  </div>
+
+  <div class="arrow-container">
+    <svg width="50" height="30" viewBox="0 0 58 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="arrow-down" fill-rule="evenodd" clip-rule="evenodd" d="M1.81802 1.81802C3.57538 0.0606602 6.42462 0.0606602 8.18198 1.81802L29 22.636L49.818 1.81802C51.5754 0.0606602 54.4246 0.0606602 56.182 1.81802C57.9393 3.57538 57.9393 6.42462 56.182 8.18198L32.182 32.182C30.4246 33.9393 27.5754 33.9393 25.818 32.182L1.81802 8.18198C0.0606602 6.42462 0.0606602 3.57538 1.81802 1.81802Z" fill="#001640"></path>
+    </svg>
   </div>
 
   <div class="learningDev">
-    <div class="divideLine" id="learningtop"></div>
     <h1 style='text-align: center; padding-bottom: 30px;'>Education</h1>
     <div class="learningContent">
       <div class="learningInfo mt-3">
@@ -79,7 +88,7 @@
             </div>
           </div>
 
-          <div class="card mb-3" style="max-width: 100%; id="lewagonCard">
+          <div class="card mb-3" style="max-width: 100%;" id="lewagonCard">
             <div class="row g-0">
               <div class="col-xl-6">
                 <img src="src/lewagon2.png" style="border: 1px solid #696969" class="img-fluid rounded-start" alt="Le wagon bootcamp">
