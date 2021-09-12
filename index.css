@@ -95,7 +95,7 @@ body {
   max-width: 800px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 766px) {
   .introduceDiv {
     height: 70vh;
     padding: 0px;
@@ -111,10 +111,10 @@ body {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (min-width: 377px) {
   .introduceDiv {
-    height: 70vh;;
-    padding: 20px 15px 0px 5px;
+    height: 80vh;;
+    padding: 15px 5px 15px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -122,6 +122,21 @@ body {
     background-size: 455px 400px;
     background-position: 36% center;
     transform: rotate(3deg);
+    background: url(src/introduce-bg.png) no-repeat;
+    background-size: 510px 450px;
+    background-position: 40% 50%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .introduceDiv {
+    height: 90vh;;
+    padding: 20px 5px 20px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-size: 455px 400px;
     background: url(src/introduce-bg.png) no-repeat;
     background-size: 510px 450px;
     background-position: 40% 50%;
@@ -139,16 +154,23 @@ body {
   z-index: 999;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 766px) {
   .divideLine {
     min-height: 60px;
     margin-bottom: 40px;
-    z-index: 999;
     margin-top: -20px;
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (min-width: 377px) {
+  .divideLine {
+    min-height: 60px;
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }  
+}
+
+@media only screen and (max-width: 376px) {
   .divideLine {
     display: none;
   }
