@@ -242,8 +242,8 @@ body {
 }
 
 .ex-link {
-  max-width: 140px;
-  max-height: 100%;
+  max-width: 100px;
+  max-height: 80%;
   filter: saturate(100%) brightness(2) opacity(70%);
 }
 
@@ -369,9 +369,8 @@ body {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 1rem;
+  bottom: 10px;
   left: 15%;
-  padding-top: 1.25rem;
   color: #fff;
   text-align: center;
 }
