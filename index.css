@@ -113,7 +113,6 @@ body {
   width: 100%;
   max-width: 380px;
   min-height: 350px;
-  /* background-image: url(src/mine.jpeg); */
   background-image: url(https://res.cloudinary.com/ellie-xyb/image/upload/v1631965422/mine_h150od.jpg);
   background-size: cover;
   background-position: 50% 50%;
@@ -123,6 +122,19 @@ body {
 
 .profileInfo {
   max-width: 800px;
+}
+
+.girl-container {
+  background-color: #B0EACD;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border-top: 1px solid #d6cece;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -39px;
+  margin-bottom: 2.5rem;
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 766px) {
@@ -152,6 +164,13 @@ body {
     background-position: 36% 50%;
     transform: rotate(3deg);
   }
+
+  .girl-container {
+    width: 68px;
+    height: 68px;
+    margin-top: -31px;
+
+  }
 }
 
 @media only screen and (max-width: 376px) {
@@ -165,6 +184,12 @@ body {
     background: url(src/introduce-bg.png) no-repeat;
     background-size: 376px 400px;
     background-position: 36% 50%;
+  }
+
+  .girl-container {
+    width: 68px;
+    height: 68px;
+    margin-top: -30px;
   }
 }
 
@@ -181,21 +206,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.girl-container {
-  background-color: #B0EACD;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border-top: 1px solid #d6cece;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -60px;
-  margin-bottom: 2.5rem;
-}
-
-
 
 .learningContent {
   display: flex;
@@ -262,7 +272,7 @@ body {
 }
 
 .ex-link {
-  max-width: 100px;
+  max-width: 80px;
   max-height: 80%;
   filter: saturate(100%) brightness(2) opacity(70%);
 }
@@ -377,7 +387,6 @@ body {
 .carousel-inner {
   max-width: 68%;
   margin: 0 auto;
-  /* box-shadow: 0px 0px 3px rgba(0,0,0,.125); */
 }
 
 .carousel-img-index {
@@ -439,7 +448,6 @@ body {
 
 .project-text h4 {
   color: #00342C;
-  /* color: #F9FCFB; */
   font-weight: bolder;
   font-size: 18px;
   text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
@@ -452,7 +460,6 @@ body {
 
 .project-tool i {
   font-size: 28px;
-  /* color: #F9FCFB; */
   margin-right: 8px;
   color: #ccd2d0;
 }
@@ -463,8 +470,6 @@ body {
 }
 
 .project-role {
-  /* background-color: #00342C; */
-  /* padding: 8px 15px; */
   border-radius: 5px;
   color: #F9FCFB;
 }
