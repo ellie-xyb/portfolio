@@ -430,6 +430,7 @@ body {
 .project-title {
   text-shadow: 1px 1px 2px rgba(0, 52, 44, 0.4);
   display: flex;
+  text-align: center;
 }
 
 .project-title img {
@@ -438,8 +439,10 @@ body {
 
 .project-text h4 {
   color: #00342C;
+  /* color: #F9FCFB; */
   font-weight: bolder;
   font-size: 18px;
+  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
 }
 
 .project-detail li {
@@ -447,17 +450,23 @@ body {
   font-weight: 200;
 }
 
-/* .project-tool img {
-  width: 38px;
-  height: 38px;
-} */
+.project-tool i {
+  font-size: 28px;
+  /* color: #F9FCFB; */
+  margin-right: 8px;
+  color: #ccd2d0;
+}
+
+.project-tool {
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
 
 .project-role {
-  background-color: #00342C;
-  padding: 8px 15px;
+  /* background-color: #00342C; */
+  /* padding: 8px 15px; */
   border-radius: 5px;
   color: #F9FCFB;
-  margin-bottom: 33px;
 }
 
 .project-logo {
