@@ -24,7 +24,7 @@ h5, p {
 body {
   background-color: #F9FCFB;
   min-height:100%;
-  /* position:relative; */
+  position:relative;
 }
  
 .header {
@@ -407,4 +407,11 @@ body {
   padding-bottom: 15px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.projects-wrapper {
+  background-color: #007E64;
+  min-height: 150vh;
+  margin-top: 40px;
+  border-radius: 10px 10px 0 0;
 }
