@@ -23,8 +23,10 @@ h5, p {
 
 body {
   background-color: #F9FCFB;
+  min-height:100%;
+  /* position:relative; */
 }
-
+ 
 .header {
   padding: 30px 20px 10px 25px;
   display: flex;
@@ -323,6 +325,9 @@ body {
   height: 100px;
   padding: 0px 25px;
   color: #F4F4F4;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-links a {
@@ -362,6 +367,7 @@ body {
   border-radius: 5px;
   border: 1px solid rgba(0,0,0,.125)
 }
+
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-size: 70px 60px;
