@@ -12,7 +12,7 @@ h3, h4 {
   font-family: 'Pacifico', cursive;;
 }
 
-h1 {
+h1, h2 {
   color: #FD5E53;
   font-family: 'Lobster Two', cursive;
 }
@@ -419,12 +419,48 @@ body {
 }
 
 .project-wrapper {
-  columns: 2;
-  column-gap: 15px;
+  display: flex;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 767px) { 
-  .project-wrapper {
-    columns: 1;
-  }
+.project-text p {
+  color: #F9FCFB;
+}
+
+.project-title {
+  text-shadow: 1px 1px 2px rgba(0, 52, 44, 0.4);
+  display: flex;
+}
+
+.project-title img {
+  margin-right: 8px;
+}
+
+.project-text h4 {
+  color: #00342C;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.project-detail li {
+  color: #F9FCFB;
+  font-weight: 200;
+}
+
+/* .project-tool img {
+  width: 38px;
+  height: 38px;
+} */
+
+.project-role {
+  background-color: #00342C;
+  padding: 8px 15px;
+  border-radius: 5px;
+  color: #F9FCFB;
+  margin-bottom: 33px;
+}
+
+.project-logo {
+  width: 38px;
+  height: 38px;
 }
