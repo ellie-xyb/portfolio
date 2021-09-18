@@ -94,7 +94,8 @@ body {
   width: 100%;
   max-width: 380px;
   min-height: 350px;
-  background-image: url(src/mine.jpeg);
+  /* background-image: url(src/mine.jpeg); */
+  background-image: url(https://res.cloudinary.com/ellie-xyb/image/upload/v1631965422/mine_h150od.jpg);
   background-size: cover;
   background-position: 50% 50%;
   border-radius: 30px;
