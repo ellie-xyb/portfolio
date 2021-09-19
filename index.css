@@ -423,13 +423,14 @@ body {
   margin-top: 40px;
   border-radius: 5px 5px 0 0;
   width: 100vw;
-  padding-top: 55px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 
 .project-wrapper {
   display: flex;
   justify-content: center;
+  padding-top: 55px;
+  padding-bottom: 40px;
 }
 
 .project-text p {
@@ -508,3 +509,9 @@ body {
 .carousel-indicators {
   margin-bottom: -18px;
 }
+
+hr {
+  color: #00342C;
+  border-top: 5px solid #00342C;;
+  border-radius: 5px 5px 0 0;
+} 
