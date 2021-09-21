@@ -211,7 +211,7 @@ body {
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  max-width: 88vw;
+  max-width: 90vw;
   margin: 0px auto;
 }
 
@@ -231,7 +231,7 @@ body {
 
 .learnCard {
   margin: 35px auto 40px auto;
-  width: 68%;
+  width: 72%;
   min-height: 65%;
   border-radius: 30px;
 }
@@ -246,7 +246,7 @@ body {
 
 @media only screen and (max-width: 1025px) and (min-width: 766px) {
   .learnCard {
-    width: 85%;
+    width: 88%;
   }
   .masonry-wrapper {
     padding-top: 30px;
