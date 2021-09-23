@@ -415,6 +415,7 @@ body {
   align-items: center; 
   padding-top: 10px;
   flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
 }
 
