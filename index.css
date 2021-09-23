@@ -434,7 +434,7 @@ body {
   padding-bottom: 40px;
 }
 
-.project-text p {
+.project-info {
   color: #F9FCFB;
 }
 
@@ -480,9 +480,15 @@ body {
   margin-top: 18px;
 }
 
+.detail-title {
+  font-size: 22px;
+  text-decoration: underline;
+  color: white;
+}  
+
 .project-role {
   border-radius: 5px;
-  color: #F9FCFB;
+  color: white;
 }
 
 .project-logo {
