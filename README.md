@@ -1,6 +1,6 @@
 # Hi there! I'm Ellie 👋
 
-### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://github.com/ellie-xyb/CV/blob/main/Ellie-CV(%E5%B1%A5%E6%AD%B4%E6%9B%B8).pdf" target="blank">Resume</a>
+### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://ellie-xyb.com/src/Ellie-CV.pdf" target="blank">Resume</a>
 
  
 I'm a full-stack developer from China, living and working in Tokyo, Japan.  
