@@ -18,11 +18,10 @@ Outside of work I like boxing and bouldering.
 
 ### Recent Interests
 
- - React
- - Python
  - Django
  - Rust
- - Go
+ - React
+ - Flutter
 
 ### Languages & Tools
 
