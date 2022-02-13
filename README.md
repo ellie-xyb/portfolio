@@ -19,9 +19,9 @@ Outside of work I like boxing and bouldering.
 
 ### Recent Interests
 
- - Django
- - React
  - Rust
+ - AWS
+ - Docker
 
 ### Languages & Tools
 
