@@ -1,6 +1,6 @@
 # Hi there! I'm Ellie 👋
 
-### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://ellie-xyb.com/src/Ellie-CV.pdf" target="blank">Resume</a>
+### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a>
 
  
 I'm a full-stack developer from China, living and working in Tokyo, Japan.  
@@ -12,14 +12,14 @@ Outside of work I like boxing and bouldering.
 
 ### Recent Projects
 
-  - [Note Calendar(WIP)](https://github.com/ellie-xyb/block-note-calendar)
+  - [Note Calendar](https://github.com/ellie-xyb/block-note-calendar)
  - [Aprooft: Social proof for your product pages](https://github.com/aprooft/aprooft)
  - [Pettoren: Pet-sitting for your pets](https://github.com/pet-sitting/pettoren)
  - [multi-select-calendar: Preact calendar supporting arbitrary day selection and i18n](https://github.com/ellie-xyb/multi-select-calendar)
 
 ### Recent Interests
 
- - Rust
+ - React
  - AWS
  - Docker
 
@@ -28,7 +28,7 @@ Outside of work I like boxing and bouldering.
 
 <p>
     <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-    <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-original.svg" alt="django" width="60" height="50"/> </a>
+    <a href="https://www.djangoproject.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" alt="django" width="60" height="50"/> </a>
     <a href="https://rubyonrails.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a>
     <a href="https://www.ruby-lang.org/en/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a>
     <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
