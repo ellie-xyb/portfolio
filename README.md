@@ -1,6 +1,6 @@
 # Hi there! I'm Ellie 👋
 
-### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://ellie-xyb.com/src/Ellie-CV.pdf" target="blank">Resume</a>
+### [🔗 Portfolio](https://ellie-xyb.com) &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;<a href="https://linkedin.com/in/ellie1012" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ellie-xyb" height="18" width="18" /> LinkedIn</a>
 
  
 I'm a full-stack developer from China, living and working in Tokyo, Japan.  
@@ -12,14 +12,14 @@ Outside of work I like boxing and bouldering.
 
 ### Recent Projects
 
-  - [Note Calendar(WIP)](https://github.com/ellie-xyb/block-note-calendar)
+  - [Note Calendar](https://github.com/ellie-xyb/block-note-calendar)
  - [Aprooft: Social proof for your product pages](https://github.com/aprooft/aprooft)
  - [Pettoren: Pet-sitting for your pets](https://github.com/pet-sitting/pettoren)
  - [multi-select-calendar: Preact calendar supporting arbitrary day selection and i18n](https://github.com/ellie-xyb/multi-select-calendar)
 
 ### Recent Interests
 
- - Rust
+ - React
  - AWS
  - Docker
 
